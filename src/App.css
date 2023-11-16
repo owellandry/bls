@@ -4,30 +4,7 @@ html, body{
   font-family: 'Sora', sans-serif;
 }
 
-nav{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 20px;
-  padding: 60px 0 10px 0;
-  align-items: center;
-  justify-content: center;
-  gap: 145px;
-}
-
-nav img{
-  width: 150px;
-}
-
-nav a {
-  text-decoration: none;
-  color: white;
-  font-size: 24px;
-  cursor: pointer;
-}
-
-nav a span {
-  display: flex;
-  border-bottom: 1px solid white;
-  width: 100%;
+*{
+  margin: 0;
+  padding: 0;
 }

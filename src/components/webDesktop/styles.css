@@ -1,0 +1,152 @@
+.seccionDesk{
+    display: flex;
+    margin: 80px 0 0 10rem;
+}
+
+.borderContent{
+    border: solid red 1px;
+    border-radius: 25px;
+    padding: 10px 25px 65px 25px;
+    width: 640px;
+    height: 340px;
+}
+
+    .cameraDesk{
+        text-align: center;
+        padding: 5px;
+    }
+
+    .desktop {
+        box-sizing: border-box;
+        border: solid #4D4D4D .5px;
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+        padding: 20px 50px;
+    }
+
+        .navDesk {
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+
+        .logoPrevDesk{
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .menuPrevDesk{
+            width: 100%;
+        }
+        
+            .menuPrevDesk ul {
+                display: flex;
+                list-style: none;
+                justify-content: space-evenly;
+                width: 100%;
+            }
+
+                .menuPrevDesk ul li a{
+                    position: relative;
+                    text-decoration: none;
+                    color: white;
+                }
+                
+                .menuPrevDesk ul li:hover a::after {
+                    width: 100%;
+                }
+                
+                .menuPrevDesk ul li .active {
+                    width: 100%;
+                }
+
+                .menuPrevDesk ul li .inactive {
+                    width: 0%;
+                }
+
+        .contentDesk{
+            margin-top: 35px;
+            display: flex;
+        }
+
+            .imgPreview{
+                border: solid white .5px;
+                width: 780px;
+                margin-right: 25px;
+            }
+
+            .titlePrevDesk{
+                font-family: 'Montserrat', sans-serif;
+                height: auto;
+                font-size: 2rem;
+                font-weight: bold;
+            }
+
+            .descriptionPrevDesk{
+                margin-top: 10px;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 13px;
+                font-weight: 400;
+            }
+
+        .serialNumber{
+            text-align: center;
+            writing-mode: vertical-lr;
+            margin-left: 40px;
+            margin-right: -40px;
+            font-weight: bold;
+        }
+
+        .footer{
+            margin-top: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .footer .circle{
+            border: solid white 1px;
+            background-color: white;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            margin: 5px 5px;
+        }
+
+.subtitle{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 10px;
+}
+
+.subtitle h1, .subtitle h2{
+    writing-mode: vertical-lr;
+}
+
+.subtitle h1{
+    font-size: 1.14rem;
+}
+
+.subtitle h2{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.webDeskInfo{
+    margin-left: 8rem;
+}
+
+.webDeskInfo h1{
+    font-size: 5.8rem;
+    font-weight: 700;
+    margin-top: -25px;
+}
+
+.gradient-text {
+    background-image: linear-gradient(150deg, #EE1711 35%, #C007BF);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
