@@ -1,32 +1,35 @@
-import React from "react";
+import React,{ useEffect, useState } from "react";
 import './about.css'
 
 const About = ()=>{
     return(
         <div className="about">
-            <h1>Break line studio</h1>
-            <div className="lineAbout" >
-                <div id="active"></div>
-                <div id="active"></div>
-                <div id="active"></div>
-                <div id="active"></div>
-                <div id="active"></div>
-                <div id="active"></div>
-                <div id="active"></div>
-                <div id="active"></div>
-                <div id="active"></div>
-                <div id="active"></div>
-                <div id="active"></div>
-                <div id="active"></div>
-                <div id="active"></div>
-                <div id="active"></div>
-                <div id="active"></div>
-                <div id="active"></div>
-                <div id="active"></div>
+            <div className="titleHome">
+                <h1>Break line studio</h1>
             </div>
-            <div className="gardient">
-                <div className="bgGardient"></div>
-                <div className="bgGardient2"></div>
+            <div className="decoration-title">
+                <div className="lineAbout" >
+                    <div className="lines"></div>
+                    <div className="lines"></div>
+                    <div className="lines"></div>
+                    <div className="lines"></div>
+                    <div className="lines"></div>
+                    <div className="lines"></div>
+                    <div className="lines"></div>
+                    <div className="lines"></div>
+                    <div className="lines"></div>
+                    <div className="lines"></div>
+                    <div className="lines"></div>
+                    <div className="lines"></div>
+                    <div className="lines"></div>
+                    <div className="lines"></div>
+                    <div className="lines"></div>
+                    <div className="lines"></div>
+                    <div className="lines"></div>
+                </div>
+                <div className="gardient">
+                    <div className="bgGardient"></div>
+                </div>
             </div>
         </div>
     )

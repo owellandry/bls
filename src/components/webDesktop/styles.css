@@ -26,6 +26,7 @@
     }
 
         .navDesk {
+            box-sizing: border-box;
             display: flex;
             align-items: center;
             width: 100%;
@@ -150,3 +151,57 @@
     background-clip: text;
 }
 
+@media (max-width: 420px) {
+    .seccionDesk{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .borderContent{
+        width: 300px;
+        height: 150px;
+    }
+
+    .desktop{
+        overflow: auto;
+        padding: 5px 10px;
+    }
+
+    .logoPrevDesk{
+        font-size: 10px;
+    }
+
+    .menuPrevDesk ul li{
+        font-size: 10px;
+    }
+
+    .contentDesk{
+        margin-top: 1.2rem;
+    }
+
+    .imgPreview{
+        width: 600px;
+        height: 70px;
+        margin-right: 12px;
+    }
+
+    .titlePrevDesk{
+        font-size: 1rem;
+    }
+
+    .descriptionPrevDesk{
+        margin-top: 4px;
+        font-size: .7rem;
+    }
+
+    .serialNumber{
+        margin-top: 18px;
+        margin-right: -5px;
+        text-align: start;
+        font-size: .7rem;
+        margin-left: 10px;
+    }
+}
