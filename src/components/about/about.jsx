@@ -22,7 +22,7 @@ const About = () => {
         Somos una <span className="yellowWord">empresa</span> especializada en el <span className="yellowWord">desarrollo de software</span> a medida. <br /> 
         Nuestro equipo de expertos en programación trabaja de la mano <br />
         con nuestros clientes para crear soluciones tecnológicas <br />
-        innovadoras y personalizadas.<br />
+        innovadoras y <span className="overline">personalizadas</span>.<br />
         </p>
       </div>
     </div>

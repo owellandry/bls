@@ -88,6 +88,10 @@
     font-weight: 600;
   }
 
+  .overline{
+    border-bottom: solid;
+  }
+
   @media (max-width: 780px) {
     .container-about {
       margin-top: 7rem;
