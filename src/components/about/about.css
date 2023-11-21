@@ -140,5 +140,9 @@
         text-align: center;
         font-size: .7rem;
       }
+
+      .overline{
+        border-bottom: solid 1px;
+      }
   }
   
