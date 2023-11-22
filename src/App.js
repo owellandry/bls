@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <NavBar/>
       <About/>
-      {/* <WebDesktop/> */}
+      <WebDesktop/>
     </div>
   );
 }
