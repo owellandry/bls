@@ -18,127 +18,22 @@ html, body{
 
 .pantallaDesk{
   position: absolute;
-  top: 80%;
-  left: 2%;
-  transform: translateY(60%)
+  top: 60%;
+  left: -2%;
+  transform: translateY(10%)
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1200px) {
   .pantallaDesk{
-    position: absolute;
-    top: 100%;
-    left: 2%;
-    transform: translateY(70%)
+    left: 0%;
   }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1000px) {
   .pantallaDesk{
-    position: absolute;
-    top: 100%;
-    left: 2%;
-    transform: translateY(80%)
+    top: 30%;
+    width: 100%;
+    transform: translateY(10%)
   }
 }
-
-@media (max-width: 870px) {
-  .pantallaDesk{
-    position: absolute;
-    top: 100%;
-    left: 2%;
-    width: 95%;
-    transform: translateY(90%)
-  }
-}
-
-@media (max-width: 780px) {
-  .pantallaDesk{
-    position: absolute;
-    top: 80%;
-    left: 2%;
-    transform: translateY(60%)
-  }
-}
-
-@media (max-width: 720px) {
-  .pantallaDesk{
-    position: absolute;
-    top: 80%;
-    left: 2%;
-    transform: translateY(60%)
-  }
-}
-
-@media (max-width: 670px) {
-  .pantallaDesk{
-    position: absolute;
-    top: 90%;
-    left: 2%;
-    transform: translateY(60%)
-  }
-}
-
-@media (max-width: 580px) {
-  .pantallaDesk{
-    position: absolute;
-    top: 100%;
-    left: 2%;
-    transform: translateY(60%)
-  }
-}
-
-@media (max-width: 520px) {
-  .pantallaDesk{
-    position: absolute;
-    top: 80%;
-    left: 2%;
-    transform: translateY(80%)
-  }
-}
-
-@media (max-width: 460px) {
-  .pantallaDesk{
-    position: absolute;
-    top: 60%;
-    left: 2%;
-    transform: translateY(30%)
-  }
-}
-
-@media (max-width: 375px) {
-  .pantallaDesk{
-    position: absolute;
-    top: 80%;
-    left: 2%;
-    transform: translateY(40%)
-  }
-}
-
-@media (max-width: 370px) {
-  .pantallaDesk{
-    position: absolute;
-    top: 60%;
-    left: 2%;
-    transform: translateY(40%)
-  }
-}
-
-@media (max-width: 320px) {
-  .pantallaDesk{
-    position: absolute;
-    top: 60%;
-    left: 2%;
-    transform: translateY(40%)
-  }
-}
-
-@media (max-width: 270px) {
-  .pantallaDesk{
-    position: absolute;
-    top: 60%;
-    left: 2%;
-    transform: translateY(40%)
-  }
-}
-
 /* //////////////////////////////////////////////////////////////////// */

@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-
+import pantalla1 from "../../assets/pantallas.png"
 import './styles.css';
 
 export default function WebDesktop(){
@@ -14,7 +14,7 @@ export default function WebDesktop(){
 
     return(
         <div className="seccionDesk">
-            
+            <img className='pantallaDesk' src={pantalla1} alt='...'/>
             <div className="containerDeskContent">
                 <div className="deskAling">
                     <div className="borderContent">
