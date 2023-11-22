@@ -14,6 +14,8 @@ html, body{
   box-sizing: border-box;
 }
 
+/*///////////////// SECCION FONDO DE PC ///////////////////////*/
+
 .pantallaDesk{
   position: absolute;
   top: 80%;
@@ -30,10 +32,28 @@ html, body{
   }
 }
 
+@media (max-width: 1080px) {
+  .pantallaDesk{
+    position: absolute;
+    top: 100%;
+    left: 2%;
+    transform: translateY(80%)
+  }
+}
+
+@media (max-width: 870px) {
+  .pantallaDesk{
+    position: absolute;
+    top: 100%;
+    left: 2%;
+    width: 95%;
+    transform: translateY(90%)
+  }
+}
+
 @media (max-width: 780px) {
   .pantallaDesk{
     position: absolute;
-    width: 680px;
     top: 80%;
     left: 2%;
     transform: translateY(60%)
@@ -43,8 +63,16 @@ html, body{
 @media (max-width: 720px) {
   .pantallaDesk{
     position: absolute;
-    width: 560px;
     top: 80%;
+    left: 2%;
+    transform: translateY(60%)
+  }
+}
+
+@media (max-width: 670px) {
+  .pantallaDesk{
+    position: absolute;
+    top: 90%;
     left: 2%;
     transform: translateY(60%)
   }
@@ -53,19 +81,46 @@ html, body{
 @media (max-width: 580px) {
   .pantallaDesk{
     position: absolute;
-    width: 510px;
+    top: 100%;
+    left: 2%;
+    transform: translateY(60%)
+  }
+}
+
+@media (max-width: 520px) {
+  .pantallaDesk{
+    position: absolute;
     top: 80%;
     left: 2%;
     transform: translateY(80%)
   }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 460px) {
   .pantallaDesk{
     position: absolute;
-    width: 470px;
-    top: 80%;
+    top: 60%;
     left: 2%;
-    transform: translateY(80%)
+    transform: translateY(30%)
   }
 }
+
+@media (max-width: 320px) {
+  .pantallaDesk{
+    position: absolute;
+    top: 60%;
+    left: 2%;
+    transform: translateY(40%)
+  }
+}
+
+@media (max-width: 270px) {
+  .pantallaDesk{
+    position: absolute;
+    top: 60%;
+    left: 2%;
+    transform: translateY(40%)
+  }
+}
+
+/* //////////////////////////////////////////////////////////////////// */

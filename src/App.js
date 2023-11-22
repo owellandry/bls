@@ -7,7 +7,7 @@ import WebDesktop from './components/webDesktop/webDesk';
 function App() {
   return (
     <div className="App">
-      {/* <img className='pantallaDesk' src={pantalla1} alt='...'/> */}
+      <img className='pantallaDesk' src={pantalla1} alt='...'/>
       <NavBar/>
       <About/>
       <WebDesktop/>
