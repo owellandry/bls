@@ -13,3 +13,59 @@ html, body{
 .body{
   box-sizing: border-box;
 }
+
+.pantallaDesk{
+  position: absolute;
+  top: 80%;
+  left: 2%;
+  transform: translateY(60%)
+}
+
+@media (max-width: 1280px) {
+  .pantallaDesk{
+    position: absolute;
+    top: 100%;
+    left: 2%;
+    transform: translateY(70%)
+  }
+}
+
+@media (max-width: 780px) {
+  .pantallaDesk{
+    position: absolute;
+    width: 680px;
+    top: 80%;
+    left: 2%;
+    transform: translateY(60%)
+  }
+}
+
+@media (max-width: 720px) {
+  .pantallaDesk{
+    position: absolute;
+    width: 560px;
+    top: 80%;
+    left: 2%;
+    transform: translateY(60%)
+  }
+}
+
+@media (max-width: 580px) {
+  .pantallaDesk{
+    position: absolute;
+    width: 510px;
+    top: 80%;
+    left: 2%;
+    transform: translateY(80%)
+  }
+}
+
+@media (max-width: 560px) {
+  .pantallaDesk{
+    position: absolute;
+    width: 470px;
+    top: 80%;
+    left: 2%;
+    transform: translateY(80%)
+  }
+}

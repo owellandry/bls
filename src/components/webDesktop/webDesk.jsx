@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+
 import './styles.css';
 
 export default function WebDesktop(){
@@ -13,6 +14,7 @@ export default function WebDesktop(){
 
     return(
         <div className="seccionDesk">
+            
             <div className="containerDeskContent">
                 <div className="deskAling">
                     <div className="borderContent">
