@@ -77,3 +77,18 @@
       width: 75px;
     }
 }
+
+@media (max-width: 320px){
+  .contentNav{
+    gap: 0;
+    justify-content: space-evenly;
+  }
+
+  .contentNav div a{
+    font-size: .8rem;
+  }
+
+  .container-logo img{
+    width: 65px;
+  }
+}

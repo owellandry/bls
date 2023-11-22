@@ -135,7 +135,7 @@
     .descriptionPage{
         margin-top: -15px;
         text-align: center;
-        font-size: .7rem;
+        font-size: .6rem;
       }
 
       .overline{
@@ -143,3 +143,31 @@
       }
   }
   
+  @media (max-width: 320px) {
+    .container-about {
+      margin-top: 3rem;
+    }
+  
+    .titleHome {
+      text-align: center;
+      font-size: 1.4rem;
+    }
+  
+    .lines {
+      height: 18px;
+    }
+  
+    .gardient {
+      height: 20px;
+    }
+
+  .descriptionPage{
+      margin-top: -15px;
+      text-align: center;
+      font-size: .58rem;
+    }
+
+    .overline{
+      border-bottom: solid 1px;
+    }
+  }
