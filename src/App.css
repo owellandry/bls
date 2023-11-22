@@ -105,6 +105,24 @@ html, body{
   }
 }
 
+@media (max-width: 375px) {
+  .pantallaDesk{
+    position: absolute;
+    top: 80%;
+    left: 2%;
+    transform: translateY(40%)
+  }
+}
+
+@media (max-width: 370px) {
+  .pantallaDesk{
+    position: absolute;
+    top: 60%;
+    left: 2%;
+    transform: translateY(40%)
+  }
+}
+
 @media (max-width: 320px) {
   .pantallaDesk{
     position: absolute;
