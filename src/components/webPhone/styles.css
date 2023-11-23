@@ -265,17 +265,17 @@
 @media (max-width: 520px){
     .borderPhone {
         border-radius: 20px;
-        padding: 10px 20px 12px 20px;
-        width: 280px;
-        max-width: 280px;
-        height: 480px;
+        padding: 5px 20px 12px 20px;
+        width: 210px;
+        max-width: 220px;
+        height: 380px;
     }
     
     .btnsPhone .btn {
         width: 4px;
         height: 25px;
         border-radius: 10px;
-        left: -3px;
+        left: -2px;
     }
     
     .btnsPhone .btn:nth-child(2){
@@ -295,11 +295,15 @@
     }
     
     .titlePh h1{
-        font-size: .8rem;
+        font-size: .7rem;
     }
 
     .close-icon i{
-        font-size: .8rem;
+        font-size: .7rem;
+    }
+
+    .bar-icon svg{
+        width: .4rem;
     }
 
     .square-container{
@@ -307,16 +311,16 @@
     }
     
     .square {
-        width: 110px;
-        height: 120px;
+        width: 80px;
+        height: 90px;
     }
     
     .arrowLeft i{
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
     
     .arrowRigth i{
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
     
     .contentPreviewPhone{
@@ -325,29 +329,30 @@
     
     .titlePrevPhone{
         font-weight: 400;
+        font-size: .8rem;
     }
     
     .descriptionPrevPhone{
         font-weight: 400;
-        font-size: .65rem;
+        font-size: .5rem;
     }
     
     .footerPh .circle{
-        width: 6px;
-        height: 6px;
-        margin: 7px;
+        width: 5px;
+        height: 5px;
+        margin: 6px;
     }
     
     .buttonPhone .button{
         border: solid gray 1px;
         border-radius: 50%;
-        height: 40px;
-        width: 40px;
+        height: 35px;
+        width: 35px;
     }
 
     .webPhoneInf h1{
-        font-size: 3.2rem;
-        margin-top: -14px;
+        font-size: 2.6rem;
+        margin-top: -10px;
     }
 }
 
