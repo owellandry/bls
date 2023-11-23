@@ -1,0 +1,268 @@
+.sectionGames{
+    display: flex;
+    flex-direction: column;
+    margin: 10rem 8rem 5rem 8rem;
+}
+
+.webGameInf{
+    z-index: 1;
+    height: 100%;
+}
+
+.webGameInf h1{
+    font-size: 6rem;
+    margin-top: -25px;    
+}
+
+.webGameInf .gradient-text {
+    background-image: linear-gradient(150deg, #01FFB3 10%, #1E38F0 30%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.xbox-controller {
+    position: relative;
+    margin-top: 5rem;
+    margin-left: 8rem;
+    width: 480px;   
+    height: 358px;
+    background: url('../../assets/boderXbox.png') no-repeat center center;
+    background-size: cover;
+}
+
+.xbox-controller img{
+    height: auto;
+    width: auto;
+}
+
+.joystick1{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    width: 65px;
+    height: 65px;
+    border: solid white 1px;
+    border-radius: 50%;
+    transform: translateX(-15%) translateY(-30%);
+}
+
+.btnCenterXbox{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-15%);
+}
+
+.btnXbox{
+    position: absolute;
+    top: 25%;
+    left: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(-90%) translateY(-25%);
+}
+
+.btnXbox .btn2Align{
+    display: flex;
+}
+
+.btnXbox .btn2Align .btn{
+    display: flex;
+    margin: 0 18px;
+}
+
+.btnXbox .btn{
+    width: 32px;
+    height: 32px;
+    border: solid gainsboro 1px;
+    background-color: gainsboro;
+    border-radius: 50%;
+}
+
+.arrowsBtn{
+    position: absolute;
+    top: 60%;
+    left: 32%;
+    transform: translateX(-32%) translateY(-60%);
+}
+
+.joystick2{
+    position: absolute;
+    top: 60%;
+    left: 66%;
+    width: 65px;
+    height: 65px;
+    border: solid white 1px;
+    border-radius: 50%;
+    transform: translateX(-66%) translateY(-60%);
+}
+
+@media (max-width: 1120px){
+    .xbox-controller{
+        margin-left: 5rem;
+    }
+
+    .webGameInf h1{
+        font-size: 5rem;
+    }
+
+}
+
+@media (max-width: 1080px){
+    .sectionGames{
+        margin: 0;
+        margin-top: 10rem;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .xbox-controller{
+        margin-left: 0;
+    }
+
+    .webGameInf h1{
+        font-size: 5rem;
+    }
+
+}
+
+@media (max-width: 1000px){
+    .sectionGames{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .xbox-controller{
+        margin: 0;
+    }
+
+    .webGameInf{
+        margin-top: 6rem;
+    }
+
+    .webGameInf h1{
+        font-size: 6rem;
+    }
+}
+
+@media (max-width: 720px){
+    .xbox-controller {
+        width: 400px;   
+        height: 298px;
+    }
+
+    .joystick1{
+        width: 55px;
+        height: 55px;
+    }
+    
+    .btnCenterXbox svg{
+        width: 7rem;
+    }
+    
+    .btnXbox .btn2Align .btn{
+        margin: 0 15px;
+    }
+    
+    .btnXbox .btn{
+        width: 26px;
+        height: 26px;
+    }
+
+    .arrowsBtn svg{
+        width: 5rem;
+    }
+    
+    .joystick2{
+        width: 55px;
+        height: 55px;
+    }
+
+    .webGameInf{
+        margin-top: 6rem;
+    }
+
+    .webGameInf h1{
+        font-size: 5.8rem;
+    }
+}
+
+@media (max-width: 700px){
+    .webGameInf{
+        margin-top: 6rem;
+    }
+
+    .webGameInf h1{
+        font-size: 4.8rem;
+    }
+}
+
+@media (max-width: 520px){
+    .xbox-controller {
+        width: 260px;   
+        height: 194px;
+    }
+
+    .joystick1{
+        width: 38px;
+        height: 38px;
+    }
+    
+    .btnCenterXbox svg{
+        width: 5rem;
+    }
+    
+    .btnXbox .btn2Align .btn{
+        margin: 0 10px;
+    }
+    
+    .btnXbox .btn{
+        width: 15px;
+        height: 15px;
+    }
+
+    .arrowsBtn{
+        top: 70%;
+        transform: translateX(-30%) translateY(-70%);
+    }
+
+    .arrowsBtn svg{
+        width: 3rem;
+    }
+    
+    .joystick2{
+        width: 38px;
+        height: 38px;
+    }
+
+    .webGameInf{
+        margin-top: 4rem;
+    }
+
+    .webGameInf h1{
+        font-size: 3.6rem;
+        margin-top: -10px;
+    }
+}
+
+@media (max-width: 400px){
+    .webGameInf h1{
+        font-size: 3rem;
+        margin-top: -10px;
+    }
+}
+
+@media (max-width: 280px){
+
+    .webGameInf{
+        margin-top: 3rem;
+    }
+    .webGameInf h1{
+        font-size: 2.4rem;
+        margin-top: -5px;
+    }
+}

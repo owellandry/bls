@@ -177,6 +177,7 @@
 
 .webDeskInfo{
     margin-left: 8rem;
+    z-index: 1;
     height: 100%;
 }
 
@@ -225,7 +226,7 @@
 
 @media (max-width: 1200px){
     .seccionDesk{
-        margin-left: 1rem;
+        margin-left: 0;
     }
 
     .webDeskInfo{
@@ -267,12 +268,12 @@
     }
 
     .webDeskInfo{
-        margin-left: 1rem;
+        margin-left: 0;
         margin-top: 4rem;
     }
     
     .webDeskInfo h1{
-        text-align: end;
+        text-align: center;
         font-size: 6rem;
         margin-top: -15px;
     }
@@ -335,12 +336,11 @@
     }
 
     .webDeskInfo{
-        margin-left: 1rem;
+        margin-left: 0;
         margin-top: 3rem;
     }
     
     .webDeskInfo h1{
-        text-align: end;
         font-size: 4rem;
         margin-top: -15px;
     }
@@ -396,12 +396,11 @@
     }
 
     .webDeskInfo{
-        margin-left: 1rem;
+        margin-left: 0;
         margin-top: 2.4rem;
     }
     
     .webDeskInfo h1{
-        text-align: end;
         font-size: 3.5rem;
         margin-top: -10px;
     }
@@ -469,12 +468,11 @@
     }
 
     .webDeskInfo{
-        margin-left: 1rem;
+        margin-left: 0;
         margin-top: 2rem;
     }
     
     .webDeskInfo h1{
-        text-align: end;
         font-size: 3rem;
         margin-top: -10px;
     }
@@ -498,7 +496,6 @@
     }
 
     .webDeskInfo h1{
-        text-align: end;
         font-size: 2.6rem;
         margin-top: -10px;
     }

@@ -194,7 +194,8 @@
 }
 
 .webPhoneInf{
-    margin-top: 3rem;
+    margin-top: 10rem;
+    z-index: 1;
     margin-right: 12rem;
     height: 100%;
 }
@@ -234,7 +235,7 @@
 @media (max-width: 1000px){
     .sectionPhone{
         margin-right: .5rem;
-        margin-top: 5rem;
+        margin-top: 10rem;
         justify-content: center;
     }
 
@@ -245,20 +246,40 @@
     .containerPhoneContent{
         flex-direction: column-reverse;
     }
+
     .webPhoneInf{
+        margin-top: 4rem;
         margin-right: 0;
     }
 
     .webPhoneInf h1{
-        font-size: 5rem;
+        text-align: center;
+        font-size: 6rem;
         margin-top: -20px;
+    }
+}
+
+@media (max-width: 820px){
+    .webPhoneInf{
+        margin-top: 5rem;
+    }
+    .webPhoneInf h1{
+        font-size: 5.6rem;
+        margin-top: -10px;
+    }
+}
+
+@media (max-width: 720px){
+    .webPhoneInf h1{
+        font-size: 5rem;
+        margin-top: -10px;
     }
 }
 
 @media (max-width: 700px){
     .webPhoneInf h1{
-        font-size: 3.6rem;
-        margin-top: -20px;
+        font-size: 4.2rem;
+        margin-top: -10px;
     }
 }
 
@@ -351,7 +372,7 @@
     }
 
     .webPhoneInf h1{
-        font-size: 2.6rem;
+        font-size: 2.8rem;
         margin-top: -10px;
     }
 }

@@ -1,9 +1,11 @@
 import React from "react";
+import pantalla2 from "../../assets/pantallaCelular.png"
 import './styles.css';
 
 export default function WebPhone(){
     return(
         <div className="sectionPhone">
+            <img className='pantallaPhone' src={pantalla2} alt='...'/>
             <div className="containerPhoneContent">
                 <div className="webPhoneInf">
                     <h1 className="gradient-text">Hacemos</h1>
