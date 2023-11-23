@@ -1,0 +1,443 @@
+.sectionPhone{
+    margin-top: 10rem;
+    box-sizing: border-box;
+    margin-right: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.containerPhoneContent{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.phoneAlign{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.borderPhone {
+    z-index: 2;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: solid red 1px;
+    background-color: black;
+    border-radius: 25px;
+    padding: 10px 25px 15px 25px;
+    width: 320px;
+    max-width: 620px;
+    height: 580px;
+}
+
+.btnsPhone .btn {
+    margin-top: 50px;
+    position: absolute;
+    width: 6px;
+    height: 30px;
+    border-radius: 15px;
+    left: -4px;
+    z-index: 1;
+    background-color: red;
+    clip-path: polygon(0 0, 50% 0, 50% 100%, 0% 100%);
+}
+
+.btnsPhone .btn:nth-child(2){
+    margin-top: 120px;
+}
+
+.btnsPhone .btn:nth-child(3){
+    margin-top: 160px;
+}
+
+.cameraPhone{
+    text-align: center;
+    padding: 5px;
+}
+
+.phone{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px 10px 15px 10px;
+    width: 100%;
+    height: 100%;
+    border: solid gray 1px;
+    border-radius: 8px;
+    overflow: auto;
+}
+
+.navPhone{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    height: 5%;
+}
+
+.titlePh h1{
+    font-size: 1rem;
+}
+
+.bar-icon svg{
+    width: .5rem;
+}
+
+.contentPhone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90%;
+}
+
+.sectionImg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.square-container{
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.square {
+    width: 140px;
+    height: 160px;
+    position: relative;
+}
+
+.square:nth-child(1) {
+    position: absolute;
+    z-index: 2;
+    border: solid gray 1px;
+    background-color: black;
+}
+
+.square:nth-child(2) {
+    z-index: 1;
+    background-color: black;
+    position: absolute;
+    border: solid gray 1px;
+    transform: translateX(5px) translateY(5px);
+}
+
+.square:nth-child(3) {
+    background-color: black;
+    border: solid gray 1px;
+    transform: translateX(10px) translateY(10px);
+}
+
+.arrowLeft i{
+    font-size: 2rem;
+    color: gray;
+}
+
+.arrowRigth i{
+    font-size: 2rem;
+    color: gray;
+}
+
+.contentPreviewPhone{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+
+.alignItemsPh{
+    width: 70%;   
+}
+
+.titlePrevPhone{
+    font-weight: 600;
+}
+
+.descriptionPrevPhone{
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+.footerPh{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 5%;
+}
+
+.footerPh .circle{
+    border: solid white 1px;
+    background-color: white;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 8px;
+}
+
+.buttonPhone{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonPhone .button{
+    border: solid gray 1px;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+}
+
+.webPhoneInf{
+    margin-top: 3rem;
+    margin-right: 12rem;
+    height: 100%;
+}
+
+.webPhoneInf h1{
+    font-size: 5.8rem;
+    font-weight: 700;
+    margin-top: -25px;
+}
+
+@media (max-width: 1380px){
+    .webPhoneInf{
+        margin-right: 4rem;
+    }
+}
+
+@media (max-width: 1200px){
+    .webPhoneInf{
+        margin-right: 5rem;
+    }
+
+    .webPhoneInf h1{
+        font-size: 4.8rem;
+    }
+}
+
+@media (max-width: 1095px){
+    .webPhoneInf{
+        margin-right: 3rem;
+    }
+
+    .webPhoneInf h1{
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 1000px){
+    .sectionPhone{
+        margin-right: .5rem;
+        margin-top: 5rem;
+        justify-content: center;
+    }
+
+    .phoneAlign{
+        justify-content: center;
+    }
+
+    .containerPhoneContent{
+        flex-direction: column-reverse;
+    }
+    .webPhoneInf{
+        margin-right: 0;
+    }
+
+    .webPhoneInf h1{
+        font-size: 5rem;
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 700px){
+    .webPhoneInf h1{
+        font-size: 3.6rem;
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 520px){
+    .borderPhone {
+        border-radius: 20px;
+        padding: 10px 20px 12px 20px;
+        width: 280px;
+        max-width: 280px;
+        height: 480px;
+    }
+    
+    .btnsPhone .btn {
+        width: 4px;
+        height: 25px;
+        border-radius: 10px;
+        left: -3px;
+    }
+    
+    .btnsPhone .btn:nth-child(2){
+        margin-top: 110px;
+    }
+    
+    .btnsPhone .btn:nth-child(3){
+        margin-top: 145px;
+    }
+    
+    .cameraPhone svg{
+        width: 48px;
+    }
+    
+    .phone{
+        padding: 10px 10px 15px 10px;
+    }
+    
+    .titlePh h1{
+        font-size: .8rem;
+    }
+
+    .close-icon i{
+        font-size: .8rem;
+    }
+
+    .square-container{
+        margin-bottom: 6px;
+    }
+    
+    .square {
+        width: 110px;
+        height: 120px;
+    }
+    
+    .arrowLeft i{
+        font-size: 1.6rem;
+    }
+    
+    .arrowRigth i{
+        font-size: 1.6rem;
+    }
+    
+    .contentPreviewPhone{
+        margin-top: 15px;
+    }
+    
+    .titlePrevPhone{
+        font-weight: 400;
+    }
+    
+    .descriptionPrevPhone{
+        font-weight: 400;
+        font-size: .65rem;
+    }
+    
+    .footerPh .circle{
+        width: 6px;
+        height: 6px;
+        margin: 7px;
+    }
+    
+    .buttonPhone .button{
+        border: solid gray 1px;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+    }
+
+    .webPhoneInf h1{
+        font-size: 3.2rem;
+        margin-top: -14px;
+    }
+}
+
+@media (max-width: 280px){
+    .borderPhone {
+        border-radius: 20px;
+        padding: 8px 12px 8px 12px;
+        width: 220px;
+        max-width: 280px;
+        height: 380px;
+    }
+    
+    .btnsPhone .btn {
+        width: 4px;
+        height: 22px;
+        border-radius: 10px;
+        left: -2.2px;
+    }
+    
+    .btnsPhone .btn:nth-child(2){
+        margin-top: 100px;
+    }
+    
+    .btnsPhone .btn:nth-child(3){
+        margin-top: 130px;
+    }
+    
+    .phone{
+        padding: 8px 10px 5px 10px;
+    }
+    
+    .titlePh h1{
+        font-size: .7rem;
+    }
+
+    .close-icon i{
+        font-size: .7rem;
+    }
+
+    .bar-icon svg{
+        width: .4rem;
+    }
+
+    .square-container{
+        margin-bottom: 4px;
+    }
+    
+    .square {
+        width: 80px;
+        height: 90px;
+    }
+    
+    .arrowLeft i{
+        font-size: 1.2rem;
+    }
+    
+    .arrowRigth i{
+        font-size: 1.2rem;
+    }
+    
+    .contentPreviewPhone{
+        margin-top: 20px;
+    }
+    
+    .titlePrevPhone{
+        font-weight: 400;
+        font-size: .8rem;
+    }
+    
+    .descriptionPrevPhone{
+        font-weight: 400;
+        font-size: .5rem;
+    }
+    
+    .footerPh .circle{
+        width: 5px;
+        height: 5px;
+        margin: 6px;
+    }
+    
+    .buttonPhone .button{
+        border: solid gray 1px;
+        border-radius: 50%;
+        height: 35px;
+        width: 35px;
+    }
+
+    .webPhoneInf h1{
+        font-size: 2.4rem;
+        margin-left: .8rem;
+        margin-top: -10px;
+    }
+}
