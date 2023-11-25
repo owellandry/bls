@@ -17,12 +17,20 @@ export default function webGame(){
                     </svg>
                 </div>
                 <div className="btnXbox">
-                    <div className="btn"></div>
-                    <div className="btn2Align">
-                        <div className="btn"></div>
-                        <div className="btn"></div>
+                    <div className="LetraY btn">
+                        <h3 className="XboxLetras">Y</h3>
                     </div>
-                    <div className="btn"></div>
+                    <div className="btn2Align">
+                        <div className="LetraX btn">
+                            <h3 className="XboxLetras">X</h3>
+                        </div>
+                        <div className="LetraB btn">
+                            <h3 className="XboxLetras">B</h3>
+                        </div>
+                    </div>
+                    <div className="LetraA btn">
+                        <h3 className="XboxLetras">A</h3>
+                    </div>
                 </div>
                 <div className="arrowsBtn">
                     <svg width="95" height="95" viewBox="0 0 95 95" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -76,10 +76,38 @@
 .btnXbox .btn{
     width: 32px;
     height: 32px;
-    border: solid gainsboro 1px;
-    background-color: gainsboro;
+    display: flex;
+    font-family: arial;
     border-radius: 50%;
+    align-items: center;
+    justify-content: center;
 }
+
+.LetraY{
+    font-family: arial;
+    border: solid #fcf05a 1px;
+    background-color: #fcf05a;
+}
+
+.LetraX{
+    font-family: arial;
+    border: solid #469fc7 1px;
+    background-color: #469fc7;
+}
+
+.LetraB{
+    font-family: arial;
+    border: solid #f36f58 1px;
+    background-color: #f36f58;
+    ;
+}
+
+.LetraA{
+    font-family: arial;
+    border: solid #85aa36 1px;
+    background-color: #85aa36;
+}
+
 
 .arrowsBtn{
     position: absolute;
@@ -97,6 +125,10 @@
     border: solid white 1px;
     border-radius: 50%;
     transform: translateX(-66%) translateY(-60%);
+}
+
+.XboxLetras{
+    color: black;
 }
 
 @media (max-width: 1120px){
