@@ -335,6 +335,12 @@
         max-width: 220px;
         height: 380px;
     }
+
+    .Apps{
+        height: 20px;
+        width: 20px;
+        border-radius: 5px;
+    }
     
     .btnsPhone .btn {
         width: 4px;
