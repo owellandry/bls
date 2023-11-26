@@ -58,6 +58,7 @@
 }
 
 .phone{
+    display: none;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -68,6 +69,48 @@
     border-radius: 8px;
     overflow: auto;
 }
+
+.display-change{
+    display: none !important;
+}
+
+.phone-back{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: auto;
+    /* background: red; */
+    border-radius: 8px;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: solid gray 1px;
+    padding: 20px 10px 15px 10px;
+}
+
+.phone2  {
+    box-sizing: border-box;
+    padding: 20px 10px 15px 10px;
+    width: 100%;
+    height: 100%;  
+    border: solid gray 1px;
+    border-radius: 8px;
+    overflow: auto;
+    display: grid;
+    gap: 10px;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+  }
+  
+  .Apps {
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: #ffffff;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  
 
 .navPhone{
     display: flex;
@@ -180,17 +223,18 @@
 }
 
 .buttonPhone{
-    margin-top: 1rem;
     display: flex;
+    margin-top: 1rem;
     align-items: center;
     justify-content: center;
 }
 
 .buttonPhone .button{
-    border: solid gray 1px;
-    border-radius: 50%;
-    height: 48px;
     width: 48px;
+    height: 48px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: solid gray 1px;
 }
 
 .webPhoneInf{

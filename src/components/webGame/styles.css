@@ -87,25 +87,28 @@
     font-family: arial;
     border: solid #fcf05a 1px;
     background-color: #fcf05a;
+    cursor: pointer;
 }
 
 .LetraX{
     font-family: arial;
     border: solid #469fc7 1px;
     background-color: #469fc7;
+    cursor: pointer;
 }
 
 .LetraB{
     font-family: arial;
     border: solid #f36f58 1px;
     background-color: #f36f58;
-    ;
+    cursor: pointer;
 }
 
 .LetraA{
     font-family: arial;
     border: solid #85aa36 1px;
     background-color: #85aa36;
+    cursor: pointer;
 }
 
 
