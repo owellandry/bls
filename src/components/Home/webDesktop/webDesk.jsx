@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import pantalla1 from "../../assets/pantallas.png"
+import pantalla1 from "../../../assets/pantallas.png"
 import './styles.css';
 
 export default function WebDesktop(){

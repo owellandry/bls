@@ -27,7 +27,7 @@
     margin-left: 8rem;
     width: 480px;   
     height: 358px;
-    background: url('../../assets/boderXbox.png') no-repeat center center;
+    background: url('../../../assets/boderXbox.png') no-repeat center center;
     background-size: cover;
 }
 
@@ -77,38 +77,47 @@
     width: 32px;
     height: 32px;
     display: flex;
-    font-family: arial;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    transition: all .4s ease-in ;
 }
 
 .LetraY{
-    font-family: arial;
-    border: solid #fcf05a 1px;
-    background-color: #fcf05a;
-    cursor: pointer;
+    border: solid #FF9900 1px;
+    background-color: #FF9900;  
+}
+
+.LetraY:hover, .LetraY:active{
+    box-shadow: 0 0 25px 5px #FF9900;
 }
 
 .LetraX{
-    font-family: arial;
-    border: solid #469fc7 1px;
-    background-color: #469fc7;
-    cursor: pointer;
+    border: solid #4478FF 1px;
+    background-color: #4478FF;
+}
+
+.LetraX:hover, .LetraX:active{
+    box-shadow: 0 0 25px 5px #4478FF;
 }
 
 .LetraB{
-    font-family: arial;
-    border: solid #f36f58 1px;
-    background-color: #f36f58;
-    cursor: pointer;
+    border: solid #FF3232 1px;
+    background-color: #FF3232;
+}
+
+.LetraB:hover, .LetraB:active{
+    box-shadow: 0 0 25px 5px #FF3232;
 }
 
 .LetraA{
-    font-family: arial;
-    border: solid #85aa36 1px;
-    background-color: #85aa36;
-    cursor: pointer;
+    border: solid #15D74B 1px;
+    background-color: #15D74B;
+}
+
+.LetraA:hover, .LetraA:active{
+    box-shadow: 0 0 25px 5px #15D74B;
 }
 
 

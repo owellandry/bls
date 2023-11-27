@@ -1,9 +1,10 @@
 import './App.css';
-import NavBar from './components/nav/navbar';
-import About from './components/about/about';
-import WebDesktop from './components/webDesktop/webDesk';
-import WebPhone from './components/webPhone/webPhone';
-import WebGame from './components/webGame/webGame';
+import NavBar from './components/Home/nav/navbar';
+import About from './components/Home/about/about';
+import WebDesktop from './components/Home/webDesktop/webDesk';
+import WebPhone from './components/Home/webPhone/webPhone';
+import WebGame from './components/Home/webGame/webGame';
+import BtnLinks from './components/Home/btnLinks/btnLinks';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <WebDesktop/>
       <WebPhone/>
       <WebGame/>
+      <BtnLinks/>
     </div>
   );
 }

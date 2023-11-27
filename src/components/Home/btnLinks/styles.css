@@ -1,0 +1,19 @@
+.sectionLinks{
+    margin-top: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.titleLink h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.titleLink .gradient-text {
+    background-image: linear-gradient(150deg, #FF6B01 35%, #DF1C6E 80%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}

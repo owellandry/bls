@@ -1,9 +1,11 @@
 import React from "react";
+import consolas from "../../../assets/consolas.png"
 import "./styles.css"
 
 export default function webGame(){
     return(
         <div className="sectionGames">
+            <img className='pantallaGame' src={consolas} alt='...'/>
             <div className="webGameInf">
                     <h1 className="gradient-text">Elaboramos</h1>
                     <h1>Juegos</h1>
@@ -17,19 +19,15 @@ export default function webGame(){
                     </svg>
                 </div>
                 <div className="btnXbox">
-                    <div className="LetraY btn">
-                        <h3 className="XboxLetras">Y</h3>
+                    <div className="LetraY btn"> 
                     </div>
                     <div className="btn2Align">
-                        <div className="LetraX btn">
-                            <h3 className="XboxLetras">X</h3>
+                        <div className="LetraX btn"> 
                         </div>
-                        <div className="LetraB btn">
-                            <h3 className="XboxLetras">B</h3>
+                        <div className="LetraB btn"> 
                         </div>
                     </div>
-                    <div className="LetraA btn">
-                        <h3 className="XboxLetras">A</h3>
+                    <div className="LetraA btn"> 
                     </div>
                 </div>
                 <div className="arrowsBtn">
