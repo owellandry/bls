@@ -2,6 +2,7 @@
     margin-top: 12rem;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     width: 100%;
 }
@@ -16,4 +17,160 @@
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
+}
+
+.links{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    width: 95%;
+    justify-content: space-evenly;
+}
+
+.link {
+    cursor: pointer;
+    width: 480px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    border-radius: 12px;
+    background-image: linear-gradient(225deg, rgba(24, 24, 24, 0.20) 0%, rgba(24, 24, 24, 0.20) 99.99%, rgba(192, 7, 189, 0.20) 100%), radial-gradient(365.15% 110.35% at 74.46% 36.88%, rgba(15, 169, 255, 0.20) 0%, rgba(24, 24, 24, 0.20) 100%);
+}
+
+.link:hover {
+    background-image: linear-gradient(0deg, rgba(24, 24, 24, 0.20) 0%, rgba(24, 24, 24, 0.20) 99.99%, rgba(192, 7, 189, 0.20) 100%), radial-gradient(100% 110.35% at 74.46% 36.88%, rgba(15, 169, 255, 0.20) 0%, rgba(24, 24, 24, 0.20) 100%);
+}
+
+.despLink{
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    width: 74%;
+    font-size: .8rem;
+}
+
+@media (max-width: 1560px){
+    .links{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1480px){
+    .link{
+        width: 420px;
+        height: 180px;
+    }
+
+    .link h1{
+        font-size: 1.8rem;
+    }
+
+    .despLink{
+        margin-top: 6px;
+        width: 70%;
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 1290px){
+    .link{
+        width: 380px;
+        height: 160px;
+    }
+
+    .link svg{
+        width: 2.5rem;
+    }
+
+    .link h1{
+        font-size: 1.4rem;
+    }
+
+    .despLink{
+        margin-top: 6px;
+        width: 70%;
+        font-size: .6rem;
+    }
+}
+
+@media (max-width: 1160px){
+    .titleLink h1{
+        font-size: 2.8rem;
+    }
+
+    .links{
+        margin-top: 1rem;
+    }
+
+    .link{
+        width: 320px;
+        height: 140px;
+    }
+
+    .link svg{
+        width: 2rem;
+    }
+
+    .link h1{
+        margin-top: -10px;
+        font-size: 1.2rem;
+    }
+
+    .despLink{
+        margin-top: 2px;
+        width: 70%;
+        font-size: .54rem;
+    }
+}
+
+@media (max-width: 1000px){
+    .titleLink h1{
+        font-size: 2.8rem;
+    }
+
+    .links{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .link svg{
+        width: 2.5rem;
+    }
+
+
+    .link{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .link h1{
+        margin-top: 0px;
+        font-size: 1.4rem;
+    }
+
+    .despLink{
+        display: none;
+    }
+}
+
+@media (max-width: 680px){
+    .titleLink h1{
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 520px){
+    .sectionLinks{
+        margin-top: 6rem;
+    }
+    .titleLink h1{
+        text-align: center;
+        font-size: 2rem;
+        margin: 20px;
+    }
 }
