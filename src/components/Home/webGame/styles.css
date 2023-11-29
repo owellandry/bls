@@ -4,6 +4,10 @@
     margin: 10rem 8rem 5rem 8rem;
 }
 
+.containerGameContent{
+    box-sizing: border-box;
+}
+
 .webGameInf{
     z-index: 1;
     height: 100%;
@@ -178,6 +182,12 @@
         flex-direction: column-reverse;
         align-items: center;
         text-align: center;
+    }
+
+    .containerGameContent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .xbox-controller{

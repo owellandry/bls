@@ -2,12 +2,15 @@
   margin: 0;
   padding: 0;
   user-select: none;
+  -webkit-user-drag: none;
 }
 
 html, body{
   background-color: black;
   color: white;
   font-family: 'Sora', sans-serif;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .body{
@@ -32,6 +35,7 @@ html, body{
 /*///////////////// SECCION FONDO DE PC ///////////////////////*/
 
 .pantallaDesk{
+  max-width: 1200px;
   position: absolute;
   top: 60%;
   left: -2%;
@@ -55,21 +59,12 @@ html, body{
 
 .pantallaPhone{
   position: absolute;
-  left: 90%;
-  transform: translateX(-90%) translateY(70%);
+  transform: translateX(10%) translateY(70%);
 }
 
 @media (max-width: 1500px) {
   .pantallaPhone{
-    left: 80%;
-    transform: translateX(-80%) translateY(82%);
-  }
-}
-
-@media (max-width: 1100px) {
-  .pantallaPhone{
-    left: 80%;
-    transform: translateX(-80%) translateY(82%);
+    transform: translateX(10%) translateY(82%);
   }
 }
 
@@ -85,64 +80,36 @@ html, body{
 
 .pantallaGame{
   position: absolute;
-  right: 45%;
-  transform: translateX(-45%) translateY(120%);
+  transform: translateX(0%) translateY(120%);
 }
 
 @media (max-width: 1720px){
   .pantallaGame{
-    right: 40%;
-    transform: translateX(-40%) translateY(120%);
+    transform: translateX(0%) translateY(120%);
   }
 }
 
-@media (max-width: 1520px){
+@media (max-width: 1340px){
   .pantallaGame{
-    right: 36%;
-    transform: translateX(-36%) translateY(120%);
-  }
-}
-
-@media (max-width: 1420px){
-  .pantallaGame{
-    right: 34%;
-    transform: translateX(-34%) translateY(120%);
+    transform: translateX(-10%) translateY(150%);
   }
 }
 
 @media (max-width: 1240px){
   .pantallaGame{
-    right: 30%;
-    transform: translateX(-30%) translateY(150%);
+    transform: translateX(-10%) translateY(150%);
   }
 }
 
-@media (max-width: 1120px){
+@media (max-width: 1080px){
   .pantallaGame{
-    right: 25%;
-    transform: translateX(-25%) translateY(150%);
+    transform: translateX(-30%) translateY(150%);
   }
 }
 
 @media (max-width: 1000px){
   .pantallaGame{
-    right: 20%;
-    transform: translateX(-20%) translateY(10%);
-  }
-}
-
-@media (max-width: 910px){
-  .pantallaGame{
-    left: 5%;
-    transform: translateX(-5%) translateY(-20%);
     width: 95%;
-  }
-}
-
-@media (max-width: 560px){
-  .pantallaGame{
-    left: 5%;
-    transform: translateX(-5%) translateY(-40%);
-    width: 95%;
+    transform: translateX(0%) translateY(40%);
   }
 }
