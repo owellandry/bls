@@ -14,6 +14,7 @@
     align-items: center;
     width: 100%;
     height: 100%;
+    padding: 5px;
 }
 
 .textSection{
@@ -114,5 +115,166 @@
 
     .lineButtons button:first-child{
         margin-right: 1rem;
+    }
+}
+
+@media (max-width: 820px){
+    .lineContainer{
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+        height: 200px;
+    }
+
+    .lineTitle{
+        font-size: 1.4rem;
+    }
+    
+    .lineDescription{
+        font-size: .9rem;
+    }
+    
+    .lineButtons button{
+        margin-top: 1rem;
+        font-size: 1rem;
+        width: 120px;
+        height: 34px;
+    }
+
+    .lineButtons button:first-child{
+        margin-right: .8rem;
+    }
+}
+
+@media (max-width: 820px){
+    .lineContainer{
+        margin-top: .6rem;
+        margin-bottom: 4rem;
+        height: 190px;
+    }
+
+    .lineTitle{
+        font-size: 1.2rem;
+    }
+    
+    .lineDescription{
+        font-size: .8rem;
+    }
+    
+    .lineButtons button{
+        margin-top: 1rem;
+        font-size: .9rem;
+        width: 110px;
+        height: 30px;
+    }
+
+    .lineButtons button:first-child{
+        margin-right: .8rem;
+    }
+}
+
+@media (max-width: 470px){
+    .lineContainer{
+        margin-top: .6rem;
+        margin-bottom: 4rem;
+        height: 275px;
+    }
+
+    .lineContent{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .textSection{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .lineTitle{
+        display: none;
+    }
+    
+    .lineDescription{
+        text-align: center;
+        font-size: .75rem;
+    }
+
+    .lineButtons{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .lineButtons button{
+        margin-top: 0;
+        font-size: .9rem;
+        border-radius: 8px;
+        width: 150px;
+        height: 32px;
+    }
+    
+    .lineButtons button:last-child{
+        margin-top: 0rem;
+    }
+
+    .lineButtons button:first-child{
+        margin-right: 0;
+    }
+
+    .logoSection{
+        height: 160px;
+    }
+
+    .logoSection img{
+        height: 180px;
+    }
+}
+
+@media (max-width: 320px){
+    .lineContainer{
+        margin-top: .6rem;
+        margin-bottom: 4rem;
+        height: 275px;
+    }
+    
+    .lineDescription{
+        text-align: center;
+        font-size: .65rem;
+    }
+
+    .lineButtons{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .lineButtons button{
+        margin-top: 0;
+        font-size: .85rem;
+        border-radius: 8px;
+        width: 120px;
+        height: 30px;
+    }
+    
+    .lineButtons button:last-child{
+        margin-top: 0rem;
+    }
+
+    .lineButtons button:first-child{
+        margin-right: 0;
+    }
+
+    .logoSection{
+        height: 160px;
+    }
+
+    .logoSection img{
+        height: 180px;
     }
 }

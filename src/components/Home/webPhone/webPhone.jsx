@@ -33,7 +33,7 @@ export default function WebPhone() {
                   <path d="M20 13H59" stroke="#727272" strokeWidth="4" strokeLinecap="round" />
                 </svg>
               </div>
-              <div className={`phone pantalla1 ${phoneVisible ? "display-change" : ""}`}>
+              <div className={`phone pantalla1 ${!phoneVisible ? "display-change" : ""}`}>
                 <div className="navPhone">
                   <div className="close-icon">
                     <i className="bi bi-x-lg"></i>
@@ -80,7 +80,7 @@ export default function WebPhone() {
                   <div className="circle"></div>
                 </div>
               </div>
-              <div className={`phone2 pantalla2 ${!phoneVisible ? "display-change" : ""}`}>
+              <div className={`phone2 pantalla2 ${phoneVisible ? "display-change" : ""}`}>
                 {Array.from({ length: 20 }, (_, index) => (
                   <div key={index} className="Apps"></div>
                 ))}
