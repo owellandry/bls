@@ -5,6 +5,7 @@ import WebDesktop from './components/Home/webDesktop/webDesk';
 import WebPhone from './components/Home/webPhone/webPhone';
 import WebGame from './components/Home/webGame/webGame';
 import BtnLinks from './components/Home/btnLinks/btnLinks';
+import Separate from './components/Home/lineSeparate/separate';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <WebPhone/>
       <WebGame/>
       <BtnLinks/>
+      <Separate/>
     </div>
   );
 }
