@@ -1,0 +1,145 @@
+.containerServices{
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.topSection .title{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.topSection .description{
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.lowerSection{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.lowerSection .containCard{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.lowerSection .containCard .cardServices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 26rem;
+    flex-wrap: wrap;
+}
+
+.cardServices .image{
+    margin-top: 1rem;
+    height: 300px;
+    text-align: center;
+}
+
+.cardServices .subtitle{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px){
+    .topSection{
+        max-width: 720px;
+    }
+
+    .topSection .title{
+        font-size: 1.8rem;
+    }
+    
+    .topSection .description{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 411px){
+    .containerServices{
+        max-width: 380px;
+        margin: 0 auto;
+    }
+
+    .topSection{
+        max-width: auto;
+    }
+
+    .topSection .title{
+        font-size: 1.7rem;
+    }
+    
+    .topSection .description{
+        font-size: 1.1rem;
+    }
+
+    .containCard .mlp{ 
+        margin-top: 4rem;
+    }
+
+    .cardServices .mlp{
+        height: auto;
+    }
+
+    .cardServices .subtitle{
+        margin-bottom: .6rem;
+    }
+}
+
+@media (max-width: 375px){
+    .containerServices{
+        max-width: 352px;
+    }
+
+    .topSection .title{
+        font-size: 1.5rem;
+    }
+
+    .topSection .description{
+        font-size: 1rem;
+    }
+
+    .cardServices .subtitle{
+        font-size: 1.1rem;
+    }
+
+    .cardServices .description{
+        font-size: .9rem;
+    }
+
+    .cardServices .image{
+        width: auto;
+        height: auto;
+    }
+
+    .cardServices .image img{
+        width: 200px;
+    }
+
+    .cardServices .mlp{
+        margin: 3rem 0 1rem 0;
+    }
+}
+
+@media (max-width: 360px){
+    .containerServices{
+        max-width: 340px;
+    }
+
+    .cardServices .subtitle{
+        font-size: 1rem;
+    }
+
+    .cardServices .description{
+        font-size: .8rem;
+    }
+}

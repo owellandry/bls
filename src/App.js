@@ -6,6 +6,7 @@ import WebPhone from './components/Home/webPhone/webPhone';
 import WebGame from './components/Home/webGame/webGame';
 import BtnLinks from './components/Home/btnLinks/btnLinks';
 import Separate from './components/Home/lineSeparate/separate';
+import ServicesSect from './components/Home/serviceSection/services';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <WebGame/>
       <BtnLinks/>
       <Separate/>
+      <ServicesSect/>
     </div>
   );
 }

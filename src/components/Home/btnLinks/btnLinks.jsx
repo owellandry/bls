@@ -86,7 +86,7 @@ export default function BtnLinks(){
                     </div>
                     <div className="despLink">
                         <p>Descubre Nuestros Proyectos:</p>
-                        <p>Hecha Un Vistazo A Nuestras Paginas Web Y Enfocados En UI / UX</p>
+                        <p>Hecha Un Vistazo A Nuestras Paginas Web Enfocados En UI / UX</p>
                     </div>
                 </div>
             </div>

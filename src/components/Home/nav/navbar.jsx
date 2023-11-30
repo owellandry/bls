@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import logo from '../../../assets/logo.svg';
-import './nav.css'
+import './styles.css'
 const NavBar = ()=>{
     const [isActiveHome, setIsActiveHome] = useState(true)
     const [isActiveContacto, setIsActiveContacto] = useState(false)
