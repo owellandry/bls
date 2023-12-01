@@ -1,6 +1,5 @@
 import React from "react";
 import "./styles.css";
-import image3D from "../../../assets/3Dimage.png"
 
 export default function M3DSection(){
     return(
