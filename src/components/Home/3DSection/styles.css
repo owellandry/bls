@@ -1,0 +1,97 @@
+.M3DContainer{
+    display: flex;
+    margin: 0 100px;
+}
+
+.container {
+    position: relative;
+    width: 50rem;
+    height: 50rem;
+    overflow: hidden;
+}
+
+.image3D,
+.reflection {
+    position: absolute;
+    width: 60rem;
+    height: 60rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image3D {
+    background-image: url("../../../assets/3Dimage.png");
+}
+
+.reflection {
+    background-image: url("../../../assets/3Dimage.png");
+    transform: rotate(18deg) scaleY(-1) translateY(-52%) translateX(6%);
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.reflection::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background: linear-gradient(to bottom, rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0));
+    pointer-events: none;
+}
+
+.content3D{
+    position: absolute;
+    padding: 10px;
+    transform: translateX(96%) translateY(78%);
+    z-index: -1;
+}
+
+.content3D .title{
+    font-size: 5.8rem;
+    background: linear-gradient(115deg, #00FFB2 16.23%, #FFBE18 91.2%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content3D .title h2:last-child{
+    margin-top: -50px;
+}
+
+.lowerContent{
+    position: absolute;
+    font-size: 1.6rem;
+    width: 480px;
+    transform: translateX(50%) translateY(-40%);
+}
+
+.btnShow .button{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    padding: 5px;
+    width: 8rem;
+    background: linear-gradient(90deg, #0FFCAA 0%, #C9CD3A 100%);
+    margin-top: 2rem;
+}
+
+.btnShow .arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+}
+
+.btnShow .arrow i{
+    color: black;
+    margin-top: 2px;
+    font-size: 2rem;
+}

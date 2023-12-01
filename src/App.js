@@ -7,18 +7,22 @@ import WebGame from './components/Home/webGame/webGame';
 import BtnLinks from './components/Home/btnLinks/btnLinks';
 import Separate from './components/Home/lineSeparate/separate';
 import ServicesSect from './components/Home/serviceSection/services';
+import M3DSection from './components/Home/3DSection/3D';
 
 function App() {
   return (
     <div className="App">
-      <NavBar/>
-      <About/>
-      <WebDesktop/>
-      <WebPhone/>
-      <WebGame/>
-      <BtnLinks/>
-      <Separate/>
-      <ServicesSect/>
+      <div className='containerHome'>
+        <NavBar/>
+        <About/>
+        <WebDesktop/>
+        <WebPhone/>
+        <WebGame/>
+        <BtnLinks/>
+        <Separate/>
+        <ServicesSect/>
+        <M3DSection/>
+      </div>
     </div>
   );
 }

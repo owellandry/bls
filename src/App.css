@@ -5,6 +5,10 @@
   -webkit-user-drag: none;
 }
 
+.containerHome{
+  overflow-x: hidden;
+}
+
 html, body{
   background-color: black;
   color: white;

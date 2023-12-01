@@ -46,6 +46,7 @@
     color: white;
     font-size: 1.4rem;
     font-weight: 800;
+    cursor: pointer;
 }
 
 .lineButtons button:first-child{
@@ -53,8 +54,17 @@
     margin-right: 2rem;
 }
 
+.lineButtons button:first-child:hover{
+    background: linear-gradient(94deg, #00e9a3 0%, #1700e7 107.91%);
+    margin-right: 2rem;
+}
+
 .lineButtons button:last-child{
     background: linear-gradient(94deg, #5182FF 0%, #C108B9 107.91%);
+}
+
+.lineButtons button:last-child:hover{
+    background: linear-gradient(94deg, #2453ca 0%, #a808a0 107.91%);
 }
 
 .logoSection, .logoSection img{
