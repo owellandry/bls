@@ -43,7 +43,7 @@ export default function WebPhone() {
                   </div>
                   <div className="bar-icon">
                     <svg
-                      width="103" height="auto" viewBox="0 0 103 163" fill="none" xmlns="http://www.w3.org/2000/svg" >
+                      width="103" height="103" viewBox="0 0 103 163" fill="none" xmlns="http://www.w3.org/2000/svg" >
                       <path d="M11 11L11 152.75" stroke="white" strokeWidth="20.25" strokeLinecap="round" />
                       <path d="M51.5 71.75L51.5 152.75" stroke="white" strokeWidth="20.25" strokeLinecap="round" />
                       <path d="M92 31.25L92 152.75" stroke="white" strokeWidth="20.25" strokeLinecap="round" />
