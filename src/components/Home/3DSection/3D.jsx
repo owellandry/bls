@@ -23,7 +23,7 @@ export default function M3DSection(){
                         <div className="button">
                             <h3>Ver</h3>
                             <div className="arrow">
-                                <i class="bi bi-arrow-right-short"></i>
+                                <i className="bi bi-arrow-right-short"></i>
                             </div>
                         </div>
                     </div>
